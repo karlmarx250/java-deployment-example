@@ -1,0 +1,31 @@
+/* Navigation bar styles */
+        .navbar {
+            background-color: #333;
+            color: #0099cc;
+            display: flex;
+            justify-content: space-between;
+            padding: 10px;
+        }
+        
+        .navbar-brand {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 20px;
+        }
+        
+        .navbar ul {
+            list-style: none;
+            display: flex;
+            margin: 0;
+            padding: 0;
+        }
+        
+        .navbar ul li {
+            margin-left: 10px;
+        }
+        
+        .navbar ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
